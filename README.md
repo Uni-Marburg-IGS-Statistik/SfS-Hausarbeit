@@ -1,5 +1,6 @@
 # Dichotomisierung quantitativer Variablen
 
+## Thema bzw. Fragestellung
 Dichotomisierung, inkl. sog. Median-Splits, wandeln eine quantitative Variable in eine zweistufige Variable. Sie werden u.a. stark kritisiert, weil sie die Beziehung zwischen einzelnen Datenpunkte verzerren. Zum Beispiel werden bei Median Splits die zwei Werte, die unmittelbar auf beiden Seiten des Medians liegen, so ähnlich behandelt wie die zwei Extrema, obwohl sie eigentlich viel näher aneinander sind als an den Extrema. Historische Gründe dafür sind u.a. die Notwendingkeit kategorischer Variablen bei Verfahren wie ANOVA. Diese Praxis wird immer stärker in der [Literatur](http://dx.doi.org/10.1037/1082-989X.7.1.19) kritisiert, v.a. mit der praktischen Handhabung von Methoden wie gemischte Modelle, die sowohl mit Messwiederholung als auch Variablen aller Skaltenarten umgehen können. Hier werden Sie die Auswirkung der Dichotomisierung untersuchen, indem Sie folgende Verfahren anhand eines Datensatzes und deren Ergebnisse vergleichen:
 
 1. ANOVA mit 
